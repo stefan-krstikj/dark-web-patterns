@@ -17,6 +17,14 @@ const routes: Array<RouteConfig> = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/TrickQuestion.vue')
+  },
+  {
+    path: '/confirmshaming',
+    name: 'Confirmshaming',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/ConfirmShaming.vue')
   }
 ]
 
