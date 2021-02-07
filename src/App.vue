@@ -1,9 +1,13 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/trickquestion">Trick Question</router-link> |
+      <router-link to="/">Home</router-link>
+      |
+      <router-link to="/trickquestion">Trick Question</router-link>
+      |
       <router-link to="/confirmshaming">Confirmshaming</router-link>
+      |
+      <router-link to="/pricecomparison">Price Comparison Prevention</router-link>
     </div>
     <router-view/>
   </div>
