@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-between p-5 border rounded shadow-sm">
+  <div class="flex flex-col justify-between p-5 border rounded shadow-sm" style="height: 43em">
     <div>
       <div class="flex items-center justify-center w-20 h-20 mb-4 rounded-full bg-indigo-50">
         <p class="font-semibold">{{ item.price }}</p>
