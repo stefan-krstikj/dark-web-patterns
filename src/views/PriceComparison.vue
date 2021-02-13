@@ -17,10 +17,10 @@
           </svg>
           <span class="relative">Одберете</span>
         </span>
-          нешто нешто нешто тука
+          албум
         </h2>
         <p class="text-base text-gray-700 md:text-lg">
-          Додадете некој албум во кошничка... Ајде...
+          Додадете некој албум во кошничка...
         </p>
       </div>
       <div class="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
