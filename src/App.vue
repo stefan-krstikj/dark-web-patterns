@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <div style="width: 100%; background-color: seagreen; color: antiquewhite;">
+      <b><a href="https://github.com/stefan-krstikj/dark-web-patterns">github.com/stefan-krstikj/dark-web-patterns</a></b>
+    </div>
     <div id="nav">
       <router-link to="/">Home</router-link>
       |
