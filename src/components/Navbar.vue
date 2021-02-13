@@ -29,19 +29,6 @@
         >НВД</span
         >
       </a>
-      <ul class="flex items-center hidden space-x-8 lg:flex">
-        <li>
-          <a
-              href="/"
-              aria-label="Our product"
-              title="Our product"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-          >Product</a
-          >
-        </li>
-
-      </ul>
-
       <div class="lg:hidden">
 
         <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
