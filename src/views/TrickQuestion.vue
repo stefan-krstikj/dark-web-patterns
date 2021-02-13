@@ -4,44 +4,44 @@
       <div class="max-w-md w-full space-y-8">
         <div>
           <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Create a new account
+            Направете нов профил
           </h2>
         </div>
         <form class="mt-8 space-y-6" action="#" method="POST">
           <input type="hidden" name="remember" value="true">
           <div class="rounded-md shadow-sm -space-y-px">
             <div>
-              <label for="first-name" class="sr-only">First name</label>
+              <label for="first-name" class="sr-only">Име</label>
               <input id="first-name" name="first-name" type="text" required
                      class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                     placeholder="First Name">
+                     placeholder="Име">
             </div>
           </div>
           <div class="rounded-md shadow-sm -space-y-px">
 
             <div>
-              <label for="last-name" class="sr-only">Last name</label>
+              <label for="last-name" class="sr-only">Презиме</label>
               <input id="last-name" name="last-name" type="text" required
                      class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                     placeholder="Last name">
+                     placeholder="Презиме">
             </div>
           </div>
           <div class="rounded-md shadow-sm -space-y-px">
 
             <div>
-              <label for="email-address" class="sr-only">Email address</label>
+              <label for="email-address" class="sr-only">Email адреса</label>
               <input id="email-address" name="email" type="email" autocomplete="email" required
                      class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                     placeholder="Email address">
+                     placeholder="Email адреса">
             </div>
           </div>
           <div class="rounded-md shadow-sm -space-y-px">
 
             <div>
-              <label for="password" class="sr-only">Password</label>
+              <label for="password" class="sr-only">Лозинка</label>
               <input id="password" name="password" type="password" autocomplete="current-password" required
                      class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                     placeholder="Password">
+                     placeholder="Лозинка">
             </div>
           </div>
 
@@ -50,7 +50,7 @@
               <input id="vouchers" name="vouchers" type="checkbox"
                      class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
               <label for="vouchers" class="ml-2 block text-sm text-gray-900">
-                I would like to be informed by e-mail about vouchers, special offers and deals!
+                Сакам да бидам информиран на e-mail за ваучери, специјални понуди и слично!
               </label>
             </div>
           </div>
@@ -60,7 +60,7 @@
               <input id="third-party" name="third-party" type="checkbox"
                      class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
               <label for="third-party" class="ml-2 block text-sm text-gray-900">
-                Please do not send me e-mails and offers from third party organizations
+                Ве молам не ја споделувајте мојата e-mail адреса со останати компании
               </label>
             </div>
           </div>
