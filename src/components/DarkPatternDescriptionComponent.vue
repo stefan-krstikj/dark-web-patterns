@@ -7,11 +7,11 @@
             <h2 class="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               {{ item.title }}
             </h2>
-            <div v-if="item.imgUrl">
-              <img :src="item.imgUrl">
+            <div v-if="item.imgUrl" class="mt-5" >
+              <img alt="" :src="require(`../assets/patterns/${item.imgUrl}`)" style="width: 100%">
             </div>
           </div>
-          <div class="lg:w-1/2">
+          <div class="lg:w-1/2 mt-28">
             <p class="mb-4 text-base text-gray-700 text-left item-text">
               {{ item.text }}
             </p>
